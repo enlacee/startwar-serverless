@@ -33,3 +33,8 @@ API de prueba SWAPI: [https://swapi.py4e.com/documentation](https://swapi.py4e.c
 ## Deploy the app
 	
     $ sls deploy
+
+
+## Others
+
+If you need use POSTMAN for create more elemenst use our collection create in: `POSTMAN/` directory
