@@ -16,11 +16,8 @@ class PeopleService {
   static async create(request) {
     try {
 
-      // await peopleModel.create(request.data);
-
       let dataJSON = JSON.parse(request.body);
       let rs = await peopleModel.create(dataJSON);
-      console.log('rs', rs);
 
       return successResponse({
         message: "Exito",
