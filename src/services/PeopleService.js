@@ -17,7 +17,7 @@ class PeopleService {
     try {
 
       let dataJSON = JSON.parse(request.body);
-      let rs = await peopleModel.create(dataJSON);
+      let rs = await peopleModel.create(dataJSON); // create new person
 
       return successResponse({
         message: "Exito",

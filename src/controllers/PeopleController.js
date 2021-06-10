@@ -10,7 +10,6 @@ module.exports.handler = async (event) => {
 
     switch (action) {
       case "create":
-      // console.log('request: ', request);
         result = PeopleService.create(request);
         break;
       case "getAll":
